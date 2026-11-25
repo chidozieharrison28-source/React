@@ -1,6 +1,6 @@
 import CourseCard from "./components/CourseCard";
 import StudentProfile from "./components/StudentProfile";
-import StudentCard from "./components/StudentCard";
+import BookingForm from "./components/BookingForm";
 
 
 
@@ -9,9 +9,9 @@ function App() {
     <div>
       <Header />
       <StudentProfile />
-      <StudentCard />
       <CourseCard />
       <Footer />
+      <BookingForm />
     </div>
   );
 }
